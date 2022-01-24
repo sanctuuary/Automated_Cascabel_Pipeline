@@ -1,6 +1,6 @@
 # Automated composition of the Cascabel Pipeline
 
-Cascabel (https://doi.org/10.3389/fgene.2020.489357) is a variable pipeline for amplicon sequence data analysis.
+Cascabel (<https://doi.org/10.3389/fgene.2020.489357>) is a variable pipeline for amplicon sequence data analysis.
 
 It makes an interesting use case for workflow work with bio.tools/EDAM and APE, as it already foresees several variants of the main workflow, and potentially more can be found when taking to account the full content of bio.tools.
 
@@ -10,7 +10,7 @@ Takes raw data as input and delivers a table of operational taxonomic units (OTU
 or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative sequences.
 
 - For inputs and outputs: *`type`* `(`*`comma separated formats`*`)`.
-- `?`: based on context or other source.
+- <sup>n</sup> : Could not be found in [bio.tools](https://bio.tools), based on context from Cascabel or other source.
 
 | **Tool** | **in bio.tools** | **ID** | **Inputs** | **Outputs** |
 | -------- | ---------------- | ------ | ---------- | ----------- |
@@ -18,22 +18,22 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | Swarm | Yes | biotools:swarm | Nucleic acid sequence (FASTA-like) | Sequence cluster (Textual format) |
 | DADA2 | Yes | biotools:dada2 | - | - |
 | deblur | No | - | - | - |
-| QIIME | Yes | biotools:qiime | - | - |
-| QIIME 2.0 | Yes | biotools:qiime2 | - | - |
+| QIIME | Yes | biotools:qiime | Raw sequence<sup>6</sup> | - |
+| QIIME 2.0 | Yes | biotools:qiime2 | Raw sequence<sup>6</sup> | - |
 | mothur | No | - | - | - |
 | VSEARCH | Yes | biotools:vsearch | Nucleic acid sequence | Sequence similarity score, sequence alignment |
 | FastQC | Yes | biotools:fastqc | Raw sequence (FASTQ-like format (text), SAM, FASTQ, BAM) | Sequence report (HTML) |
-| PEAR | Yes | biotools:pear | - | Raw sequence? (FASTQ-like)? / Sequence merging?<sup>5</sup> |
+| PEAR | Yes | biotools:pear | - | Sequence assembly<sup>5</sup> |
 | Cutadapt | Yes | biotools:cutadapt | RNA sequence (FASTQ, FASTA) | RNA sequence (FASTQ, FASTA) |
-| Cutadapt 1.12 | Yes | biotools:cutadapt_1.12 | RNA sequence? (FASTQ, FASTA)?<sup>4</sup> | RNA sequence? (FASTQ, FASTA)?<sup>4</sup> |
+| Cutadapt 1.12 | Yes | biotools:cutadapt_1.12 | RNA sequence (FASTQ, FASTA)<sup>4</sup> | RNA sequence (FASTQ, FASTA)<sup>4</sup> |
 | SortMeRna | Yes | biotools:sortmerna | - | - |
 | trie | No | - | - | - |
-| UCLUST | No | Sequence? (FASTA, FASTQ)?<sup>2</sup> | - | - |
+| UCLUST | No | Sequence (FASTA, FASTQ)<sup>2</sup> | - | - |
 | UCLUST_REF | No | - | - | - |
-| USEARCH | Yes | biotools:usearch | Sequence? (FASTA, FASTQ)<sup>1</sup> | (FASTA, FASTQ)?<sup>1</sup> |
+| USEARCH | Yes | biotools:usearch | Sequence (FASTA, FASTQ)<sup>1</sup> | (FASTA, FASTQ)<sup>1</sup> |
 | USEARCH_REF | No | - | - | - |
 | CD-HIT | Yes | biotools:cd-hit | Sequence alignment (FASTA) | Data (Textual format), Data (Textual format), Sequence alignment (FASTA) |
-| SUMACLUST | No | - | Sequence?<sup>3</sup> | - |
+| SUMACLUST | No | - | Sequence<sup>3</sup> | - |
 | BLAST | No | - | - | - |
 | BLAST+ | No | - | - | - |
 | pynast | No | - | - | - |
@@ -42,8 +42,8 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | ClustalW (BioLib) | Yes | biotools:clustalw_biolib | Sequence (FASTA) | Sequence alignment (ClustalW format, FASTA, nexus-seqm, PHYLIP format) |
 | ClustalW (PBIL) | Yes | biotools:clustalw_pbil | Sequence (FASTA) | Sequence alignment (FASTA) |
 | ClustalW (SIB) | Yes | biotools:clustalw_sib | Sequence (FASTA) | Sequence alignment (FASTA) |
-| RAxML | Yes | biotools:raxml | - | - |
-| FastTree | Yes | biotools:fasttree | - | - |
+| RAxML | Yes | biotools:raxml | Phylogenetic tree<sup>8</sup> | - |
+| FastTree | Yes | biotools:fasttree | - | Phylogenetic tree<sup>7</sup> |
 | Krona | Yes | biotools:krona | - | - |
 
 1. [drive5.com](http://www.drive5.com/usearch/manual/cmdline.html)
@@ -51,4 +51,7 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 3. [Sumaclust Wiki](https://git.metabarcoding.org/obitools/sumaclust/wikis/home)
 4. Does not have inputs and outputs in bio.tools. Is based on other Cutadapt.
    **Note**: according to bio.tools, Cutadapt is a "Sequence trimming" operation while Cutadapt 1.12 "Data handling". "Sequence trimming" being [more specific](https://edamontology.github.io/edam-browser/#operation_3192).
-5. [PEAR documentation](https://cme.h-its.org/exelixis/web/software/pear/doc.html)
+5. Based on [PEAR documentation](https://cme.h-its.org/exelixis/web/software/pear/doc.html).
+6. Based on [description on bio.tools](https://bio.tools/qiime).
+7. Based on [description on bio.tools](https://bio.tools/fasttree).
+8. Based on [FastTree manual](https://cme.h-its.org/exelixis/resource/download/NewManual.pdf).
