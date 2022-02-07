@@ -28,7 +28,7 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | Cutadapt 1.12 | Yes | biotools:cutadapt_1.12 | RNA sequence (FASTQ, FASTA)<sup>4</sup> | RNA sequence (FASTQ, FASTA)<sup>4</sup> |
 | SortMeRna | Yes | biotools:sortmerna | (FASTA, FASTQ), RNA database<sup>14</sup> | - |
 | trie | No | - | - | - |
-| UCLUST | No | Sequence (FASTA, FASTQ)<sup>2</sup> | - | - |
+| UCLUST | No | - | Sequence (FASTA, FASTQ)<sup>2</sup> | - | - |
 | UCLUST_REF | No | - | - | - |
 | USEARCH | Yes | biotools:usearch | Sequence (FASTA, FASTQ)<sup>1</sup> | (FASTA, FASTQ)<sup>1</sup> |
 | USEARCH_REF | No | - | - | - |
