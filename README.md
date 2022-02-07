@@ -41,7 +41,7 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | Infernal | Yes | biotools:infernal | Sequence profile (Sequence profile format) | Database search results |
 | ClustalW (BioLib) | Yes | biotools:clustalw_biolib | Sequence (FASTA) | Sequence alignment (ClustalW format, FASTA, nexus-seqm, PHYLIP format) |
 | ClustalW (PBIL) | Yes | biotools:clustalw_pbil | Sequence (FASTA) | Sequence alignment (FASTA) |
-| ClustalW (SIB) | Yes | biotools:clustalw_sib | Sequence (FASTA) | Sequence alignment (FASTA) |
+| ClustalW (SIB) | No | - | Sequence (FASTA) | Sequence alignment (FASTA) |
 | RAxML | Yes | biotools:raxml | Phylogenetic tree<sup>8</sup> | - |
 | FastTree | Yes | biotools:fasttree | - | Phylogenetic tree<sup>7</sup> |
 | Krona | Yes | biotools:krona | (XML, Textual format)<sup>11</sup> | (HTML)<sup>10</sup> |
