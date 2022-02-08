@@ -1,0 +1,31 @@
+{
+  "ontology_path": "./Cascabel/edam.owl",
+  "ontologyPrexifIRI": "http://edamontology.org/",
+  "toolsTaxonomyRoot": "operation_0004",
+  "dataDimensionsTaxonomyRoots": ["data_0006", "format_1915" ],
+  "tool_annotations_path": "./Cascabel/toolAnnotationsSupplemented.json",
+  "strict_tool_annotations": "true",
+  "constraints_path": "./Cascabel/No2/constraints_no2.json",
+  "timeout_sec": "120",
+  "solutions_dir_path": "./Cascabel/No2/",
+  "solution_length": { "min": 3, "max": 10 },
+  "max_solutions": "10",
+  "number_of_execution_scripts": "0",
+  "number_of_generated_graphs": "10",
+  "debug_mode": "false",
+  "use_workflow_input": "all",
+  "use_all_generated_data": "all",
+  "tool_seq_repeat": "false",
+  "inputs": [
+    {
+      "data_0006": ["data_2044"],
+      "format_1915": ["format_1930"]
+    }
+  ],
+  "outputs": [
+    {
+      "data_0006": ["data_2955"],
+      "format_1915": ["format_2331"]
+    }
+  ]
+}
