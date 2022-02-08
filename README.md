@@ -30,7 +30,7 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | trie | No | - | - | - |
 | UCLUST | No | - | Sequence (FASTA, FASTQ)<sup>2</sup> | - | - |
 | UCLUST_REF | No | - | - | - |
-| USEARCH | Yes | biotools:usearch | Sequence (FASTA, FASTQ)<sup>1</sup> | (FASTA, FASTQ)<sup>1</sup> |
+| USEARCH | Yes | biotools:usearch | Sequence (FASTA, FASTQ)<sup>1</sup> | Sequence (FASTA, FASTQ)<sup>1</sup> |
 | USEARCH_REF | No | - | - | - |
 | CD-HIT | Yes | biotools:cd-hit | Sequence alignment (FASTA) | Data (Textual format), Data (Textual format), Sequence alignment (FASTA) |
 | SUMACLUST | No | - | Sequence<sup>3</sup> | - |
@@ -45,6 +45,10 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | RAxML | Yes | biotools:raxml | Phylogenetic tree<sup>8</sup> | - |
 | FastTree | Yes | biotools:fasttree | - | Phylogenetic tree<sup>7</sup> |
 | Krona | Yes | biotools:krona | (XML, Textual format)<sup>11</sup> | (HTML)<sup>10</sup> |
+| SILVAngs | Yes | biotools:silvangs | Nucleic acid sequence (FASTA) | Nucleic acid sequence (FASTA), Matrix (TSV), Plot, Report (PDF), Sequence cluster nucleic acid (FASTA), Nucleic acid sequence (Binary format) |
+| MG-RAST | Yes | biotools:mg-rast | - | - |
+| NGTax2 | No | - | - | - |
+| SLIM | Yes | biotools:SLIM | - | - |
 
 1. [drive5.com](http://www.drive5.com/usearch/manual/cmdline.html)
 2. [drive5.com](https://www.drive5.com/usearch/manual/uclust_algo.html)

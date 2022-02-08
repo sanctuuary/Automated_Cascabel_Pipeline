@@ -19,4 +19,7 @@
   ,"biotools:raxml"
   ,"biotools:fasttree"
   ,"biotools:krona"
+  ,"biotools:silvangs"
+  ,"biotools:biotools:mg-rast"
+  ,"biotools:SLIM"
 ]
