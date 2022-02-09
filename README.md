@@ -20,8 +20,8 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | deblur | No | - | - | - |
 | QIIME | Yes | biotools:qiime | Raw sequence<sup>6</sup> | - |
 | QIIME 2.0 | Yes | biotools:qiime2 | Raw sequence<sup>6</sup> | - |
-| mothur | No | - | Sequence<sup>13</sup> | Taxonomy summary<sup>12</sup> |
-| VSEARCH | Yes | biotools:vsearch | Nucleic acid sequence | Sequence similarity score, sequence alignment |
+| mothur | No | - | Sequence<sup>13</sup> (FASTA)<sup>13</sup> | Taxonomy summary<sup>12</sup> (Sequence feature annotation format)<sup>13</sup> |
+| VSEARCH | Yes | biotools:vsearch | Nucleic acid sequence (FASTQ<sup>16</sup>) | Sequence similarity score, sequence alignment |
 | FastQC | Yes | biotools:fastqc | Raw sequence (FASTQ-like format (text), SAM, FASTQ, BAM) | Sequence report (HTML) |
 | PEAR | Yes | biotools:pear | - | Sequence assembly<sup>5</sup> |
 | Cutadapt | Yes | biotools:cutadapt | RNA sequence (FASTQ, FASTA) | RNA sequence (FASTQ, FASTA) |
@@ -34,8 +34,8 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 | USEARCH_REF | No | - | - | - |
 | CD-HIT | Yes | biotools:cd-hit | Sequence alignment (FASTA) | Data (Textual format), Data (Textual format), Sequence alignment (FASTA) |
 | SUMACLUST | No | - | Sequence<sup>3</sup> | - |
-| BLAST | No | - | Sequence<sup>15</sup> | Statistical estimate score<sup>15</sup> |
-| BLAST+ | No | - | Sequence<sup>15</sup> | Statistical estimate score<sup>15</sup> |
+| BLAST | No | - | Sequence<sup>15</sup> (FASTA)<sup>17</sup> | Statistical estimate score<sup>15</sup> (HTML, XML, JSON, Textual format)<sup>17</sup> |
+| BLAST+ | No | - | Sequence<sup>15</sup> (FASTA)<sup>17</sup> | Statistical estimate score<sup>15</sup> (HTML, XML, JSON, Textual format)<sup>17</sup> |
 | pynast | No | - | - | - |
 | MAFFT | Yes | biotools:MAFFT | Sequence (FASTA) | Sequence alignment (FASTA) |
 | Infernal | Yes | biotools:infernal | Sequence profile (Sequence profile format) | Database search results |
@@ -66,3 +66,5 @@ or Amplicon Sequence Variants (ASVs) in BIOM and text format and representative 
 13. As described by [mothur's manual](http://mothur.org/wiki/mothur_manual/).
 14. As described by [SortMeRna's website](https://bioinfo.lifl.fr/sortmerna/sortmerna.php).
 15. As described by [BLAST's website](https://blast.ncbi.nlm.nih.gov/Blast.cgi).
+16. Supports at least FASTQ format according to [VSEARCH's bio.tools](https://bio.tools/vsearch).
+17. As described by [BLAST's API documentation](https://ncbi.github.io/blast-cloud/dev/api.html).
