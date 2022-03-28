@@ -56,11 +56,36 @@
     },
     {
       "outputs": [
-        
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
       ],
       "inputs": [
         {
-          "format_1915": [],
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
           "data_0006": [
             "http://edamontology.org/data_2044"
           ]
@@ -194,7 +219,6 @@
       "outputs": [
         {
           "format_1915": [
-            "http://edamontology.org/format_2182",
             "http://edamontology.org/format_1930"
           ],
           "data_0006": [
@@ -203,6 +227,14 @@
         }
       ],
       "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2955"
+          ]
+        },
         {
           "format_1915": [
             "http://edamontology.org/format_2331"
@@ -630,6 +662,33 @@
       ],
       "label": "Krona",
       "id": "krona"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3987"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2409"
+      ],
+      "label": "Gunzip",
+      "id": "gunzip"
     }
   ]
 }

@@ -1,9 +1,8 @@
 {
   "constraints": [
     {
-      "constraintid": "next_m",
+      "constraintid": "use_m",
       "parameters": [
-        { "operation_0004": ["fastqc"] },
         { "operation_0004": ["pear"] }
       ]
     }

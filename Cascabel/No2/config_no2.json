@@ -19,13 +19,17 @@
   "inputs": [
     {
       "data_0006": ["data_2044"],
-      "format_1915": ["format_1930"]
+      "format_1915": ["format_3987"]
+    },
+    {
+      "data_0006": ["data_2044"],
+      "format_1915": ["format_3987"]
     }
   ],
   "outputs": [
     {
-      "data_0006": ["data_2955"],
-      "format_1915": ["format_2331"]
+      "data_0006": ["data_2044"],
+      "format_1915": ["format_1930"]
     }
   ]
 }
