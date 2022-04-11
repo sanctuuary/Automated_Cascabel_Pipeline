@@ -23714,6 +23714,41 @@
         <rdfs:label>RNA sequence</rdfs:label>
     </owl:Class>
     
+<!-- http://edamontology.org/data_9001 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_9001">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3494"/>
+        <created_in>1.8</created_in>
+        <oboInOwl:hasDefinition>A DNA sequence that represents a biological data.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Biological DNA sequences</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Biological DNA sequence</rdfs:label>
+    </owl:Class>
+    
+    <!-- http://edamontology.org/data_9002 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_9002">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3494"/>
+        <created_in>1.8</created_in>
+        <oboInOwl:hasDefinition>A DNA sequence that represents a technical data.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Technical DNA sequences</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Technical DNA sequence</rdfs:label>
+    </owl:Class>
+    
+    <!-- http://edamontology.org/data_9003 -->
+
+    <owl:Class rdf:about="http://edamontology.org/data_9003">
+        <rdfs:subClassOf rdf:resource="http://edamontology.org/data_3494"/>
+        <created_in>1.8</created_in>
+        <oboInOwl:hasDefinition>A DNA sequence that represents a mix of biological and technical data.</oboInOwl:hasDefinition>
+        <oboInOwl:hasExactSynonym>Mixed DNA sequences</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#data"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/edam#edam"/>
+        <rdfs:label>Mixed DNA sequence</rdfs:label>
+    </owl:Class>
 
 
     <!-- http://edamontology.org/data_3496 -->
