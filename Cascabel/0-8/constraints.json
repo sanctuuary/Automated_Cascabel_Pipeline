@@ -1,0 +1,24 @@
+{
+  "constraints": [
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        { "operation_0004": ["pear"] }
+      ]
+    },
+    {
+      "constraintid": "next_m",
+      "parameters": [
+        { "operation_0004": ["pear"] },
+        { "operation_0004": ["qiime_extract-barcodes"] }
+      ]
+    },
+    {
+      "constraintid": "next_m",
+      "parameters": [
+        { "operation_0004": ["gunzip"] },
+        { "operation_0004": ["fastqc"] }
+      ]
+    }
+  ]
+}
