@@ -13,28 +13,28 @@
       ]
     },
     {
-      "constraintid": "next_m",
+      "constraintid": "ite_m",
       "parameters": [
         { "operation_0004": ["pear"] },
         { "operation_0004": ["qiime_extract-barcodes"] }
       ]
     },
     {
-      "constraintid": "next_m",
+      "constraintid": "ite_m",
       "parameters": [
         { "operation_0004": ["gunzip"] },
         { "operation_0004": ["fastqc"] }
       ]
     },
     {
-      "constraintid": "next_m",
+      "constraintid": "ite_m",
       "parameters": [
         { "operation_0004": ["qiime_extract-barcodes"] },
         { "operation_0004": ["qiime_split-lib-fastq"] }
       ]
     },
     {
-      "constraintid": "next_m",
+      "constraintid": "ite_m",
       "parameters": [
         { "operation_0004": ["qiime_split-lib-fastq"] },
         { "operation_0004": ["cat"] }
