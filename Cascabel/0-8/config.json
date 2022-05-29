@@ -6,7 +6,7 @@
   "tool_annotations_path": "./Cascabel/toolAnnotationsReference.json",
   "strict_tool_annotations": "true",
   "constraints_path": "./Cascabel/0-8/constraints.json",
-  "timeout_sec": "120",
+  "timeout_sec": "300",
   "solutions_dir_path": "./Cascabel/0-8/",
   "solution_length": { "min": 2, "max": 10 },
   "solutions": "10",

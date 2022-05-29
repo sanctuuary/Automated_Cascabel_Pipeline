@@ -19,6 +19,10 @@
         { "operation_0004": ["gunzip"] },
         { "operation_0004": ["fastqc"] }
       ]
+    },
+    {
+      "constraintid": "SLTLx",
+      "formula": "!F Exists (?x1) (<'operation_0004'(?x1,?x1;)> true)"
     }
   ]
 }

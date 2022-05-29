@@ -39,6 +39,10 @@
         { "operation_0004": ["qiime_split-lib-fastq"] },
         { "operation_0004": ["cat"] }
       ]
+    },
+    {
+      "constraintid": "SLTLx",
+      "formula": "!F Exists (?x1) (<'operation_0004'(?x1,?x1;)> true)"
     }
   ]
 }
