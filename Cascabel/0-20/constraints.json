@@ -1,0 +1,60 @@
+{
+  "constraints": [
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        { "operation_0004": ["pear"] }
+      ]
+    },
+    {
+      "constraintid": "nuse_m",
+      "parameters": [
+        { "operation_0004": ["usearch"] }
+      ]
+    },
+    {
+      "constraintid": "ite_m",
+      "parameters": [
+        { "operation_0004": ["pear"] },
+        { "operation_0004": ["qiime_extract-barcodes"] }
+      ]
+    },
+    {
+      "constraintid": "ite_m",
+      "parameters": [
+        { "operation_0004": ["gunzip"] },
+        { "operation_0004": ["fastqc"] }
+      ]
+    },
+    {
+      "constraintid": "ite_m",
+      "parameters": [
+        { "operation_0004": ["qiime_extract-barcodes"] },
+        { "operation_0004": ["qiime_split-lib-fastq"] }
+      ]
+    },
+    {
+      "constraintid": "ite_m",
+      "parameters": [
+        { "operation_0004": ["qiime_split-lib-fastq"] },
+        { "operation_0004": ["cat"] }
+      ]
+    },
+    {
+      "constraintid": "SLTLx",
+      "formula": "!F Exists (?x1) (<'operation_0004'(?x1,?x1;)> true)"
+    },
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        { "operation_0004": ["qiime_pick-otu"] }
+      ]
+    },
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        { "operation_0004": ["qiime_pick-rep-set"] }
+      ]
+    }
+  ]
+}
