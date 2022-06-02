@@ -1,0 +1,760 @@
+{
+  "functions": [
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1412"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1235"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0291"
+      ],
+      "label": "Swarm",
+      "id": "swarm"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3498"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3227"
+      ],
+      "label": "dada2",
+      "id": "dada2"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9002"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2945"
+      ],
+      "label": "QIIME (Extract barcodes)",
+      "id": "qiime_extract-barcodes"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9002"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3933"
+      ],
+      "label": "QIIME (Split Lib FastQ)",
+      "id": "qiime_split-lib-fastq"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1920"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3028"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3460"
+      ],
+      "label": "mothur",
+      "id": "mothur"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929",
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2520",
+        "http://edamontology.org/operation_0450"
+      ],
+      "label": "VSEARCH",
+      "id": "vsearch"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2955"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2182",
+            "http://edamontology.org/format_2573",
+            "http://edamontology.org/format_1930",
+            "http://edamontology.org/format_2572"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044",
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0236",
+        "http://edamontology.org/operation_3218",
+        "http://edamontology.org/operation_2238"
+      ],
+      "label": "FastQC",
+      "id": "fastqc"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0232"
+      ],
+      "label": "PEAR",
+      "id": "pear"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930",
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3495"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930",
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3495"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3192"
+      ],
+      "label": "Cutadapt",
+      "id": "cutadapt"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930",
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3495"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930",
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3495"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2409"
+      ],
+      "label": "cutadapt 1.12",
+      "id": "cutadapt_1.12"
+    },
+    {
+      "outputs": [
+        
+      ],
+      "inputs": [
+        
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0346",
+        "http://edamontology.org/operation_2451",
+        "http://edamontology.org/operation_0258"
+      ],
+      "label": "SortMeRna",
+      "id": "sortmerna"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929",
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929",
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2403"
+      ],
+      "label": "USEARCH",
+      "id": "usearch"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0006"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0006"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0863"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0863"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0291"
+      ],
+      "label": "cd-hit",
+      "id": "cd-hit"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331",
+            "http://edamontology.org/format_2332",
+            "http://edamontology.org/format_3464",
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0951"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2998",
+        "http://edamontology.org/operation_2997"
+      ],
+      "label": "BLAST",
+      "id": "blast"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331",
+            "http://edamontology.org/format_2332",
+            "http://edamontology.org/format_3464",
+            "http://edamontology.org/format_2330"
+
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0951"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2998",
+        "http://edamontology.org/operation_2997"
+
+      ],
+      "label": "BLAST+",
+      "id": "blast+"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0863"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0492"
+      ],
+      "label": "MAFFT",
+      "id": "MAFFT"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2080"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2069"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1354"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2478"
+      ],
+      "label": "Infernal",
+      "id": "infernal"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1982",
+            "http://edamontology.org/format_1929",
+            "http://edamontology.org/format_1949",
+            "http://edamontology.org/format_1997"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0863"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0292"
+      ],
+      "label": "ClustalW (BioLib)",
+      "id": "clustalw_biolib"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0863"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0492"
+      ],
+      "label": "ClustalW (PBIL)",
+      "id": "clustalw_pbil"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_0863"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2044"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0492"
+      ],
+      "label": "ClustalW (SIB)",
+      "id": "clustalw_sib"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_2884"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2332",
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3671"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0337"
+      ],
+      "label": "Krona",
+      "id": "krona"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3989"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9003"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_2409"
+      ],
+      "label": "Gunzip",
+      "id": "gunzip"
+    },
+    {
+      "outputs": [
+        {
+          "format_1995": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1412"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1995": [
+            "http://edamontology.org/format_1930"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0291"
+      ],
+      "label": "QIIME (Pick OTU)",
+      "id": "qiime_pick-otu"
+    },
+    {
+      "outputs": [
+        {
+          "format_1995": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1995": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1412"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0291"
+      ],
+      "label": "QIIME (Pick representative set)",
+      "id": "qiime_pick-rep-set"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1995": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        },
+        {
+          "format_1995": [
+            "http://edamontology.org/format_1929",
+            "http://edamontology.org/format_1333"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0226"
+      ],
+      "label": "QIIME (Parallel assign tex.)",
+      "id": "qiime_parallel-assign-tex"
+    }
+  ]
+}

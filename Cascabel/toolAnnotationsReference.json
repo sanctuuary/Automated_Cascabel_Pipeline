@@ -704,7 +704,7 @@
     {
       "outputs": [
         {
-          "format_1995": [
+          "format_1915": [
             "http://edamontology.org/format_2330"
           ],
           "data_0006": [
@@ -714,7 +714,7 @@
       ],
       "inputs": [
         {
-          "format_1995": [
+          "format_1915": [
             "http://edamontology.org/format_1930"
           ],
           "data_0006": [
@@ -731,7 +731,7 @@
     {
       "outputs": [
         {
-          "format_1995": [
+          "format_1915": [
             "http://edamontology.org/format_1929"
           ],
           "data_0006": [
@@ -741,7 +741,7 @@
       ],
       "inputs": [
         {
-          "format_1995": [
+          "format_1915": [
             "http://edamontology.org/format_2330"
           ],
           "data_0006": [
@@ -768,7 +768,7 @@
       ],
       "inputs": [
         {
-          "format_1995": [
+          "format_1915": [
             "http://edamontology.org/format_1929"
           ],
           "data_0006": [
@@ -776,7 +776,7 @@
           ]
         },
         {
-          "format_1995": [
+          "format_1915": [
             "http://edamontology.org/format_1929",
             "http://edamontology.org/format_1333"
           ],
