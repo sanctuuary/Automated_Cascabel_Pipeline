@@ -55,6 +55,12 @@
       "parameters": [
         { "operation_0004": ["qiime_pick-rep-set"] }
       ]
+    },
+    {
+      "constraintid": "use_m",
+      "parameters": [
+        { "operation_0004": ["qiime_parallel-assign-tex"] }
+      ]
     }
   ]
 }
