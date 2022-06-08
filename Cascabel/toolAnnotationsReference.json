@@ -790,6 +790,211 @@
       ],
       "label": "QIIME (Parallel assign tex.)",
       "id": "qiime_parallel-assign-tex"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2331"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_1412"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_0227"
+      ],
+      "label": "QIIME (Make OTU table)",
+      "id": "qiime_make_otu_table"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3793"
+      ],
+      "label": "QIIME (Summarize ???)",
+      "id": "qiime_summarize_???"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3434"
+      ],
+      "label": "Convert biom table",
+      "id": "convert_biom_table"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3695"
+      ],
+      "label": "Filter OTUs from OTU table",
+      "id": "filter_otu_from_otu_table"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3695"
+      ],
+      "label": "Convert filtered biom table",
+      "id": "convert_filtered_biom_table"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_2330"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3695"
+      ],
+      "label": "Convert filtered biom table",
+      "id": "convert_filtered_biom_table"
+    },
+    {
+      "outputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "inputs": [
+        {
+          "format_1915": [
+            "http://edamontology.org/format_3746"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_3707"
+          ]
+        },
+        {
+          "format_1915": [
+            "http://edamontology.org/format_1929"
+          ],
+          "data_0006": [
+            "http://edamontology.org/data_9001"
+          ]
+        }
+      ],
+      "taxonomyOperations": [
+        "http://edamontology.org/operation_3695"
+      ],
+      "label": "QIIME (Filter FASTA)",
+      "id": "qiime_filter_fasta"
     }
   ]
 }
