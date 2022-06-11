@@ -61,6 +61,12 @@
       "parameters": [
         { "operation_0004": ["qiime_parallel-assign-tex"] }
       ]
+    },
+    {
+      "constraintid": "not_repeat_op",
+      "parameters": [
+        { "operation_0004": ["operation_0004"] }
+      ]
     }
   ]
 }

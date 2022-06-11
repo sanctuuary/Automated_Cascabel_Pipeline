@@ -6,7 +6,7 @@
   "tool_annotations_path": "./Cascabel/toolAnnotationsReference.json",
   "strict_tool_annotations": "true",
   "constraints_path": "./Cascabel/0-20/constraints.json",
-  "timeout_sec": "300",
+  "timeout_sec": "600",
   "solutions_dir_path": "./Cascabel/0-20/",
   "solution_length": { "min": 20, "max": 20 },
   "solutions": "20",
@@ -24,20 +24,32 @@
     {
       "data_0006": ["data_9003"],
       "format_1915": ["format_3989"]
+    },
+    {
+      "data_0006": ["data_9001"],
+      "format_1915": ["format_3331"]
     }
   ],
   "outputs": [
+    {
+      "data_0006": ["data_2955"],
+      "format_1915": ["format_2331"]
+    },
+    {
+      "data_0006": ["data_2955"],
+      "format_1915": ["format_2331"]
+    },
+    {
+      "data_0006": ["data_1412"],
+      "format_1915": ["format_2330"]
+    },
     {
       "data_0006": ["data_9001"],
       "format_1915": ["format_1929"]
     },
     {
-      "data_0006": ["data_2955"],
-      "format_1915": ["format_2331"]
-    },
-    {
-      "data_0006": ["data_2955"],
-      "format_1915": ["format_2331"]
+      "data_0006": ["data_9001"],
+      "format_1915": ["format_1929"]
     }
   ]
 }

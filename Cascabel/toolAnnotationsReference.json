@@ -788,7 +788,7 @@
       "taxonomyOperations": [
         "http://edamontology.org/operation_0226"
       ],
-      "label": "QIIME (Parallel assign tex.)",
+      "label": "QIIME (Parallel assign tax)",
       "id": "qiime_parallel-assign-tex"
     },
     {
@@ -850,8 +850,8 @@
       "taxonomyOperations": [
         "http://edamontology.org/operation_3793"
       ],
-      "label": "QIIME (Summarize ???)",
-      "id": "qiime_summarize_???"
+      "label": "QIIME (Summarize tax)",
+      "id": "qiime_summarize_tax"
     },
     {
       "outputs": [

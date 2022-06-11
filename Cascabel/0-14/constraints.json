@@ -43,6 +43,12 @@
     {
       "constraintid": "SLTLx",
       "formula": "!F Exists (?x1) (<'operation_0004'(?x1,?x1;)> true)"
+    },
+    {
+      "constraintid": "not_repeat_op",
+      "parameters": [
+        { "operation_0004": ["operation_0004"] }
+      ]
     }
   ]
 }
