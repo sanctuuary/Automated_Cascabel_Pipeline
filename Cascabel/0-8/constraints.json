@@ -7,22 +7,28 @@
       ]
     },
     {
-      "constraintid": "ite_m",
+      "constraintid": "depend_m",
       "parameters": [
-        { "operation_0004": ["pear"] },
-        { "operation_0004": ["qiime_extract-barcodes"] }
+        { "operation_0004": ["qiime_extract-barcodes"] },
+        { "operation_0004": ["pear"] }
       ]
     },
     {
-      "constraintid": "ite_m",
+      "constraintid": "depend_m",
       "parameters": [
-        { "operation_0004": ["gunzip"] },
-        { "operation_0004": ["fastqc"] }
+        { "operation_0004": ["fastqc"] },
+        { "operation_0004": ["gunzip"] }
       ]
     },
     {
       "constraintid": "SLTLx",
       "formula": "!F Exists (?x1) (<'operation_0004'(?x1,?x1;)> true)"
+    },
+    {
+      "constraintid": "not_repeat_op",
+      "parameters": [
+        { "operation_0004": ["operation_0004"] }
+      ]
     }
   ]
 }
