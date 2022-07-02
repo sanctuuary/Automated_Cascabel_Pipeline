@@ -13,31 +13,31 @@
       ]
     },
     {
-      "constraintid": "ite_m",
+      "constraintid": "depend_m",
       "parameters": [
-        { "operation_0004": ["pear"] },
+        { "operation_0004": ["qiime_extract-barcodes"] },
+        { "operation_0004": ["pear"] }
+      ]
+    },
+    {
+      "constraintid": "depend_m",
+      "parameters": [
+        { "operation_0004": ["fastqc"] },
+        { "operation_0004": ["gunzip"] }
+      ]
+    },
+    {
+      "constraintid": "depend_m",
+      "parameters": [
+        { "operation_0004": ["qiime_split-lib-fastq"] },
         { "operation_0004": ["qiime_extract-barcodes"] }
       ]
     },
     {
-      "constraintid": "ite_m",
+      "constraintid": "depend_m",
       "parameters": [
-        { "operation_0004": ["gunzip"] },
-        { "operation_0004": ["fastqc"] }
-      ]
-    },
-    {
-      "constraintid": "ite_m",
-      "parameters": [
-        { "operation_0004": ["qiime_extract-barcodes"] },
+        { "operation_0004": ["cat"] },
         { "operation_0004": ["qiime_split-lib-fastq"] }
-      ]
-    },
-    {
-      "constraintid": "ite_m",
-      "parameters": [
-        { "operation_0004": ["qiime_split-lib-fastq"] },
-        { "operation_0004": ["cat"] }
       ]
     },
     {
