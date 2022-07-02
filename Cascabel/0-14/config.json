@@ -8,7 +8,7 @@
   "constraints_path": "./Cascabel/0-14/constraints.json",
   "timeout_sec": "300",
   "solutions_dir_path": "./Cascabel/0-14/",
-  "solution_length": { "min": 11, "max": 12 },
+  "solution_length": { "min": 14, "max": 14 },
   "solutions": "30",
   "number_of_execution_scripts": "0",
   "number_of_generated_graphs": "30",
