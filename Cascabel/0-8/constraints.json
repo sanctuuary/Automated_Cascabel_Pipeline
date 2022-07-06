@@ -29,6 +29,10 @@
       "parameters": [
         { "operation_0004": ["operation_0004"] }
       ]
+    },
+    {
+      "constraintid": "SLTLx",
+      "formula": "! Exists (?x) ('Input'(?x) & (F <'operation_0004'(?x;)> F <'operation_0004'(?x;)> true))"
     }
   ]
 }

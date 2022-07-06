@@ -19,11 +19,13 @@
   "inputs": [
     {
       "data_0006": ["data_9003"],
-      "format_1915": ["format_3989"]
+      "format_1915": ["format_3989"],
+      "APE_label": ["Input"]
     },
     {
       "data_0006": ["data_9003"],
-      "format_1915": ["format_3989"]
+      "format_1915": ["format_3989"],
+      "APE_label": ["Input"]
     }
   ],
   "outputs": [
